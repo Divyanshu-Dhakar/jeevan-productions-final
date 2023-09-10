@@ -1,0 +1,42 @@
+.blog-card{
+
+    background-color: #fff;
+    max-width: 30rem;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+  .blog-card .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .blog-card .details .title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  }
+  .blog-card .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .blog-card .bottom a{
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    background-color: #082165;
+    color: #fff;
+    border-radius: 0.4rem;
+  }
+  .testimonial-grid{
+    margin: 5rem;
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 3rem;
+grid-row-gap: 3rem;
+
+  }
